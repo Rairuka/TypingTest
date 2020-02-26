@@ -1,0 +1,24 @@
+Error using plot
+Vectors must be the
+same length.
+
+Error in
+Interface>pushbutton2_Callback
+(line 301)
+plot(1:1:handles.numTries,handles.wpmList,':+','Color',[1,0,0],...
+
+Error in gui_mainfcn
+(line 95)
+        feval(varargin{:});
+
+Error in Interface
+(line 42)
+    gui_mainfcn(gui_State,
+    varargin{:});
+
+Error in
+matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)Interface('pushbutton2_Callback',hObject,eventdata,guidata(hObject)) 
+Error while evaluating UIControl Callback.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+shows an error when we attempt to plot without doing wpm test first

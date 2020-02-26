@@ -1,0 +1,14 @@
+stages:
+1)making interface( linking gen words, type box, timer, improvement and wpm display)**use guide function in matlab**
+
+2)collecting dictionary in txt format and convert to a vector in matlab
+
+3)making timer in matlab
+
+4)making loop for text input and word generator
+
+5)calculation of word per minute
+
+6)making an improvement function showing stats on a plot 
+
+

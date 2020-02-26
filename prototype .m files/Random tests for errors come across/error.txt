@@ -1,0 +1,4 @@
+output:
+got NaN instead
+
+This is a test to see whether i can find length(var) and assign it to another var. It worked however it didn't work in the interface.m

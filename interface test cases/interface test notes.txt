@@ -1,0 +1,32 @@
+on running, i realised values inputed into the textedit1 box didn't concatenate properly into my empty vector corWords.
+
+later realised that i needed guidata(hObjects,handles) to save the inputs to handles
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+on making interface, i accidently put a box somewhere and i couldn't get rid of it. Therefore i started again from scratch
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+making plot button work took a while
+first i plotted it and it came out ok but i wanted to edit the axis limits
+in doing so it shows two labels and axis labels overlapping making not readable
+using my pong file from my spare time i looked at the format and manage to get the plot button to work correctly
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+since for loops didn't work, i had to figure out a way to keep generating values
+therefore on enter press i made it execute a var(handle.words) with a random index to generate a new word
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+realised timers could only execute one function, this caused problems for calculation of wpm
+in addition the calculations need the length of corWords and wroWords. lengths(x) didn't seem to work in the gui therefore i made counts
+for each.
+--------------------------------------------------------------------------------------------------------------------------------------------
+what if they get more wrong then correct? an error
+find a fix with an if statement

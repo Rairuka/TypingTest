@@ -1,0 +1,7 @@
+expect
+closed all
+
+output
+>> quit_code
+>> quit_code
+>> quit_code

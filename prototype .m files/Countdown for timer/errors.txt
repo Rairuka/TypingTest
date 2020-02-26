@@ -1,0 +1,3 @@
+running timer with pause actually pauses the whole matlab script.
+
+not what i want!!

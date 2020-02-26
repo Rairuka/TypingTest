@@ -1,0 +1,2 @@
+thought it would work but the handles weren't transfered to the function when used in the gui.
+the fuunction wpmCalc would delete current values in handles for hObjects.

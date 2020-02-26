@@ -1,0 +1,3 @@
+%making a script that generates random words
+wordTxt=fileread(words.txt);
+words=splitlines(word

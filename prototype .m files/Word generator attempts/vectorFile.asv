@@ -1,0 +1,27 @@
+%vector file with the empty vectors i plan to use in main gui
+
+%for plots
+wpm=[]
+numTries=[]
+
+%for word gen
+words=splitlines(wordTxt);
+words2=words %userInput is compared to this
+
+%testing with input
+for i 1:length(words)
+    disp(words(i);
+    key=get(gcf,'CurrentKey')
+    if (strcmp(key, 'return'))
+        continue
+    end
+end
+
+
+
+%used for conditional with word gen and user input
+%correct words
+corWords=[]
+
+%wrong words
+wroWords=[]

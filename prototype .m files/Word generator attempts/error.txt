@@ -1,0 +1,2 @@
+everything was going alright until i realised for scripts didn't work in the interface.m(gui) 
+and keypress functions are only available in gui

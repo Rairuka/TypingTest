@@ -1,0 +1,11 @@
+User Input in MATLAB - typing in the words
+Text Output and/or plotting in MATLAB - outputting results and words to type
+MATLAB programming concepts including:
+Loops - loop for showing up new words each time after being typed
+Vectors or Arrays - each word typed will be put in an array
+Conditional execution. - for words that don't match etc, put in a separate list?
+Software Development Practices including:
+Commenting and code Style. comments and coding with spaces etc to read more easily
+Testing
+Incremental development of code - testing each part of the code
+Being able to explain your code and your design decisions. - 

@@ -1,0 +1,9 @@
+function [] = PlotStats(numTries,wpm);  
+%function that plots num tries and wpm will be used in gui but with handles
+%this is a test run
+numTries=[1:5]
+wpm=[1,5,2,6,5]
+figure('Name','Words per minute against Number of tries';
+axis(
+plot(numTries,wpm)
+end

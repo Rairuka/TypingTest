@@ -1,0 +1,16 @@
+In this project you have to develop an application that:
+
+Reads input, and (input from user typing in words)
+Performs some interesting computation based on that input. (finding wpm)
+ 
+
+The code that you use to produce that application must use a combination of at least two of:
+
+Loops (contantly generating words to type and input)
+Vectors or Arrays (constanting concatenating)
+Conditional execution (comparing words?)**
+Optionally, your code might embed:
+
+Functions.  (timer?)**
+Visualisation of data (making stats based on amount of tries, to show improvement etc)
+ 

@@ -1,0 +1,6 @@
+figure
+plot(x,y,'Color',[0,0.7,0.9],'+','M)
+
+title('WPM vs Attempt')
+xlabel('Attempt')
+ylabel('Your WPM')
